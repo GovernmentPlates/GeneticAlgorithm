@@ -1,7 +1,7 @@
 # (Simple) Genetic Algorithm
 Simple genetic algorithm with Ackley's function optimization.
 
-**Author:** Dominic Hollis (GovernmentPlates) -- Uni Coursework
+**Author:** Dominic Hollis (GovernmentPlates) -- Uni Coursework (May 2021)
 ***
 
 ## Running the GA
