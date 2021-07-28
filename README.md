@@ -1,4 +1,6 @@
 # (Simple) Genetic Algorithm
+Simple genetic algorithm with Ackley's function optimization.
+
 **Author:** Dominic Hollis (GovernmentPlates) -- Uni Coursework
 ***
 
@@ -8,6 +10,8 @@ directory.
 
 Then run `main.py` from your Python CLI -- after a few seconds (depending on your parameters), you should see a GAOutput.csv generated.
 The CSV contains the population coordinates, which can then be fed into a program like Excel to produce a graph.
+
+![GAOutput.csv scatter graph](https://github.com/GovernmentPlates/GeneticAlgorithm/blob/main/GAGraph.png)
 
 **IMPORTANT:** Make sure that you are reading the output of the console for any messages.
 
@@ -29,9 +33,9 @@ maxBoundsSolutionConstraint:5
 
 **maximumGens** Set's the maximum number of generations that the GA will go through.
 
-**minBoundsSolutionConstraint** A minimum boundary value (used in generating random numbers)
+**minBoundsSolutionConstraint** A minimum boundary value (used in generating random numbers).
 
-**maxBoundsSolutionConstraint** A maximum boundary value (used in generating random numbers)
+**maxBoundsSolutionConstraint** A maximum boundary value (used in generating random numbers).
 
 **NOTE:** As per the [university assignment] requirements, the **minBoundsSolutionConstraint** and **maxBoundsSolutionConstraint** must be set at **-5** and **5** (constraints).
 
