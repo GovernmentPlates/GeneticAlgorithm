@@ -31,7 +31,7 @@ while (maximumGens >= currentGen):
     parents = pickParents(population)
     children = genChildren(parents)
     population = children
-    print("Current Generation:",currentGen, "- Population Fitness Average:",average(currentGenFitnesses), " (Score:",calculateScore(findBestCandidate(fitnesses)),"%)")
+    print(f"Current Generation: {currentGen} - Population Fitness Average: {average(currentGenFitnesses)} (Score: {calculateScore(findBestCandidate(fitnesses))}%)")
     currentGen += 1
 
-print("*** Best Fitness:",findBestCandidate(fitnesses), "-- Score:", calculateScore(findBestCandidate(fitnesses)),"% ***")
+print(f"*** Best Fitness: {findBestCandidate(fitnesses)} -- Score: {calculateScore(findBestCandidate(fitnesses))}% ***")
